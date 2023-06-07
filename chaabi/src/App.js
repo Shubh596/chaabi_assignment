@@ -37,7 +37,6 @@ function App() {
       ((data - getData) / data) * 100
     setAccuracy(sumData.toFixed(2))
   }
-
   return (
     <div className="App">
       <h1 className="heading">Touch Typing</h1>
